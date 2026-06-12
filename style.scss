@@ -200,5 +200,91 @@ span{
             }
     }
 
+
 }
+
+.section4{
+    width: 100%;
+    max-width: 1300px;
+    height: 700px;
+    display: flex;
+    margin: auto;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    margin-top: 100px;
+
+    .section41{
+         width: 100%;
+    max-width: $maxwidth;
+    height: 840px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+
+     .our{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        p{
+            color: #217BF4;
+            font-size: 20px;
+            margin-bottom: -20px;
+
+        }
+        h1{
+            font-size: $h1font;
+            color: $h1color;
+        }
+        span{
+            font-size: $spanfont;
+            color: $spancolor;
+            text-align: center;
+        }
+
+    }
+    .boxes{
+        width: 100%;
+        height: 550px;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        row-gap: 25px;
+
+
+
+        .box3{
+            width: 40%;
+            height: 130px;
+            background-color: white;
+             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+             display: flex;
+              border-radius: 10px;
+
+
+             img{
+                padding-top: 20px;
+                padding-left: 20px;
+             }
+             p{
+                padding-right: 20px;
+                color: #656464;
+             }
+             h3{
+                padding-top: 12px;
+                color: #2F2C4A;
+             }
+        }
+    }
+
+
+    }
+
+   
+
+
+
+
+}
+
         
