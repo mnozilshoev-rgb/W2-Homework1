@@ -4,6 +4,11 @@ $h1color: #0A093D;
 $h1font:40px;
 $maxwidth: 1050px;
 
+span{
+    color: $spancolor;
+    font-size: $spanfont;
+}
+
 
 .mainheader{
     width: 100%;
@@ -115,6 +120,85 @@ $maxwidth: 1050px;
     }
 
 
+
+}
+
+.section3{
+      width: 100%;
+    max-width: $maxwidth;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    .left3{
+        width: 65%;
+        display: flex;
+        gap: 30px;
+
+        .box{
+            width: 43%;
+            height: 320px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+
+            .star{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding-left: 30px;
+                padding-top: 20px;
+                color: #0A093D;
+            }
+            .star1{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding-left: 15px;
+                color: #0A093D;
+                margin-top: -10px;
+            }
+            p{
+                margin-left: 30px;
+                padding-right: 30px;
+                color: $spancolor;
+                font-size: $spanfont;
+            }
+            h5{
+                margin-left: 30px;
+                color: #217BF4;
+                font-size: 15px;
+
+            }
+        }
+
+
+        
+    }
+    .right3{
+        width: 35%;
+        span{
+            color: #217BF4;
+        }
+        h2{
+            font-size: $h1font;
+           color: #0A093D;
+        }
+        p{
+            color: $spancolor;
+                font-size: $spanfont;
+
+        }
+         button{
+                padding: 13px 20px;
+                border-radius: 10px;
+                border: none;
+                border: 1px solid #217BF4;
+                color: #217BF4;
+                margin-right: 10px;
+                 background-color: #217BF4;
+                color: white;
+                box-shadow: 0 4px 15px rgba(22, 33, 153, 0.65);
+            }
+    }
 
 }
         
