@@ -1,7 +1,7 @@
 $spanfont: 18px;
 $spancolor: grey;
 $h1color: #0A093D;
-$h1font:30px;
+$h1font:40px;
 $maxwidth: 1050px;
 
 
@@ -30,10 +30,10 @@ $maxwidth: 1050px;
 
 .section1{
     width: 100%;
-    background: linear-gradient(135deg, #FFFFFF 20%, #D4E7FE 100%);
     max-width: 1300px;
     margin: auto;
     height: 500px;
+    background: linear-gradient(135deg, #FFFFFF 20%, #D4E7FE 100%);
     .you{
         width: 100%;
         max-width: $maxwidth;
@@ -54,6 +54,7 @@ $maxwidth: 1050px;
             }
             h1{
                 font-size: 56px;
+                color: $h1color;
             }
             span{
                 color: $spancolor;
@@ -80,4 +81,40 @@ $maxwidth: 1050px;
         }
     }
 }
+.section2{
+    width: 100%;
+    max-width: $maxwidth;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    gap: 14%;
+    .left2{
+        width: 40%;
+        .wh{
+            color: #217BF4;
+            font-size: 20px;
+        }
+        h1{
+            color: $h1color;
+            font-size: $h1font;
+        }
+        span{
+            color: $spancolor;
+            font-size: $spanfont;
+        }
+        p{
+            color: #0A093D;
+            font-weight: bold;
+        }
 
+    }
+    .right2{
+        width: 45%;
+
+    }
+
+
+
+}
+        
